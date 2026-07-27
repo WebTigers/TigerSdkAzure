@@ -1,0 +1,12 @@
+{
+    "name": "webtigers/tiger-sdk-azure",
+    "description": "Tiger Azure PHP SDK — a provider module that vendors microsoft/azure-storage-blob so Tiger can use Azure Blob Storage media storage with no Composer on the target.",
+    "type": "tiger-module",
+    "license": "MIT",
+    "keywords": ["tiger", "tiger-module", "sdk", "azure", "blob", "media-storage"],
+    "require": {
+        "php": ">=8.1",
+        "microsoft/azure-storage-blob": "^1.5"
+    },
+    "config": { "optimize-autoloader": true, "sort-packages": true }
+}

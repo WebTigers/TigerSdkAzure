@@ -1,0 +1,13 @@
+{
+    "slug": "tiger-sdk-azure",
+    "name": "Tiger Azure PHP SDK",
+    "version": "0.0.0-dev",
+    "type": "sdk",
+    "description": "Vendors microsoft/azure-storage-blob so Tiger can use Azure Blob Storage media storage with no Composer on the server. Activate one cloud SDK provider at a time.",
+    "author": "WebTigers",
+    "license": "MIT",
+    "homepage": "https://github.com/WebTigers/TigerSdkAzure",
+    "keywords": ["sdk", "azure", "blob", "storage"],
+    "pricing": { "model": "free" },
+    "conflict": ["tiger-sdk-aws", "tiger-sdk-googlecloud"]
+}
